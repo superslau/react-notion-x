@@ -601,6 +601,7 @@ export class NotionAPI {
         ...this._kyOptions,
         ...kyOptions,
         json: body,
+        credentials: undefined,
         headers
       })
       .json()
